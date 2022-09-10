@@ -26,5 +26,6 @@
     padding: 30px;
 
     /* if you just use a 'padding', then size of layout is including padding number. box-sizing is to avoid that */
+    /* content-box is add the space of padding size */
     box-sizing: border-box;
 }
