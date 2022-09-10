@@ -1,0 +1,30 @@
+.inline {
+    display: inline;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.block {
+    display: block;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box {
+    border: 5px solid red;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+
+    /* if you just use a 'padding', then size of layout is including padding number. box-sizing is to avoid that */
+    box-sizing: border-box;
+}
