@@ -29,3 +29,17 @@
     /* content-box is add the space of padding size */
     box-sizing: border-box;
 }
+
+.outline {
+    border: 5px solid red;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+
+    /* if you just use a 'padding', then size of layout is including padding number. box-sizing is to avoid that */
+    /* content-box is add the space of padding size */
+    box-sizing: content-box;
+    outline: 5px solid black;
+    outline-offset: 10px;
+    margin: 30px;
+}
