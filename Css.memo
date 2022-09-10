@@ -1,0 +1,17 @@
+memo for reminding
+
+・text-transform: UpperCase
+
+
+a:hover {
+            color: blue;
+        }
+        a:active {
+            color: red;
+        }
+
+
+background-color:{ #f5f5f5;
+            background-image: url("images/image1.png");
+            background-size: contain;
+            }

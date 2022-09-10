@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+            
+             
+        <title>
+            Section 3 forth
+        </title>
+
+        <style>
+            body {
+                background-color: #f5f5f5;
+            }
+
+            div.red-border{
+                border-width: 50px;
+                border-style: solid;
+                border-color: #f00;
+                /* some one  */
+                /* border: 1px solid black; */
+
+                /* border-radius: 10px; */
+
+                border-top-left-radius: 5px;
+                border-top-right-radius: 50%;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 50%;
+
+                width: 200px;
+                height: 200px;
+
+               
+            }
+
+            div.inline {
+                display: inline-block;
+                border: 1px solid red;
+                width: 200px;
+                height: 200px;
+
+            }
+
+            #box {
+                width: 200px;
+                height: 200px;
+                border: 2px solid black;
+                background-image: url("images/computer.jpg");
+                background-position: center center;
+                background-size: cover;
+                border-radius: 0 50% 0 50%;
+
+                box-shadow: 10px 10px 5px gray;
+                /*            x   y   blur inside color */
+            }
+
+            
+
+        </style>
+        
+    </head>
+
+    <body>
+        <!-- border -->
+        <div class="red-border">This has a border</div>
+
+
+        <h1>This is a learn about display type</h1>
+
+        <br>
+        <!-- block element-->
+        <h1>This is a block element</h1>        with more text beside  
+        <!-- inline element -->
+        <span>This is an inline element</span>with more text beside  
+
+        <div class="inline">
+            This is a block element
+        </div>
+
+
+        <!-- box -->
+        <div id="box"></div>
+
+    </body>
+</html>

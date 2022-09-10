@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Section 3</title>
+
+    <style>
+        body{
+            background-color: white;
+            color: black;
+        }
+        /* internal css */
+        .section{
+            background-color: white;
+            color: red;
+        }
+        .section2{
+            background-color: white;
+            color: blue;
+        }
+
+        /* for inline */
+        .UpperCase{
+            text-transform: uppercase;
+        }
+
+        /* plural */
+        h2, h3{
+            color: aquamarine;
+        }
+
+        /* for id */
+        /* and "id" which we decide should be unique */
+        #the-title{
+            text-decoration: underline;
+        }
+        
+         /* two divide, but we can change color to targeting one  */
+        p strong {
+            color: blue;
+        }
+        p strong i {
+            /* it is better because it is more specific to decide what color you want is*/
+            color: #ff0000;
+            
+        }
+    </style>
+</head>
+
+<body >
+    <!-- inline css -->
+    <h1 style="font-size: 10px;">This is an h1</h1>
+    <h1 style="color: blue; font-size: 20px;">This is an another h1</h1>
+    
+    <!-- internal css -->
+    <div class="section">
+        <h1>This is an h1</h1> 
+        <div class="section2">
+            <p>this is a paragraph</p>
+        </div>   
+        <h1>This is an another h1</h1>
+
+        <!-- changing class name, change style for each component-->
+        <h1 class="section2 UpperCase">This is an another h1</h1>
+    </div>
+
+    <p>Don't select me</p>
+    
+    <!-- id select -->
+    <h1 id="the-title">this is title</h1>
+    <h1 class="section" id="the-title">this is title</h1>
+
+    <!-- plural -->
+    <h2>change color</h2>
+    <h3>change color</h3>
+
+
+    <!-- two divide, but we can change color to targeting one -->
+    <div>
+        <p>
+            <strong>Target <i>me</i></strong> Dolores, eius. Nisi quo 
+            quae qui autem ducimus molestiae neque officia sequi 
+            similique.
+        </p>
+    </div>
+</body>
+
+
+</html>
