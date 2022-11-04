@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layer background and gradient together</title>
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-size: cover;
+            background-image: linear-gradient(180deg, 
+                rgba(0,0,0,0.3) 0%, 
+                rgba(0,0,0,0.8) 100%),
+                url("https://cdn.pixabay.com/photo/2022/09/07/21/23/ferris-wheel-7439636_960_720.jpg");
+
+                color: white;
+                font-size: 90px;
+                text-align: center;
+                padding: 500px;
+        }
+    </style>
+</head>
+<body>
+    This is a Ferris Wheel
+</body>
+</html>
